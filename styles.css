@@ -65,7 +65,7 @@ body { font-family: var(--font-body); background: var(--bg-primary); color: var(
 .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(0, 212, 255, 0.35); }
 .btn-outline { background: transparent; color: var(--text-primary); border: 1px solid var(--border-hover); }
 .btn-outline:hover { border-color: var(--accent-1); color: var(--accent-1); transform: translateY(-2px); }
-.hero-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 2rem; padding-top: 3rem; border-top: 1px solid var(--border); animation: fadeInUp 0.8s var(--ease-out) 0.5s both; }
+.hero-stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem; padding-top: 3rem; border-top: 1px solid var(--border); animation: fadeInUp 0.8s var(--ease-out) 0.5s both; }
 .stat { text-align: center; }
 .stat-number { font-size: clamp(1.8rem, 3.5vw, 2.5rem); font-weight: 800; background: var(--gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; letter-spacing: -0.02em; }
 .stat-suffix { font-size: clamp(1.2rem, 2vw, 1.5rem); font-weight: 700; background: var(--gradient); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
