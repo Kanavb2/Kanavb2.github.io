@@ -4,9 +4,9 @@
   // Typing animation
   const phrases = [
     'Forward Deployed Engineer',
-    'AI Architect',
-    'Enterprise Builder',
-    'Production AI Specialist',
+    'Software Engineer',
+    'AI Engineer',
+    'Builder',
   ];
   let phraseIndex = 0, charIndex = 0, isDeleting = false;
   const typedEl = document.getElementById('typed-text');
